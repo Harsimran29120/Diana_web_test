@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url("https://cdn.spacetelescope.org/archives/images/wallpaper5/heic0611b.jpg");
+}
+
+.mars-field {
+    width: 271px;
+    height: 271px;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.rover {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+.inp {
+    height: 20px;
+    border-radius: 10px;
+}
+
+
+.btn {
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+}
